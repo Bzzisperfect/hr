@@ -6,7 +6,7 @@ for ($i=0,$x=0; $x<16; $x++) {
 	}
 }
 ?>
-<table border=1 cellpadding=1 cellpadding=0>
+<table border=6 cellpadding=2 cellpadding=0>
 <?foreach ($chars as $row) {?>
  <tr>
  <?foreach ($row as $cell) {?>
@@ -18,3 +18,14 @@ for ($i=0,$x=0; $x<16; $x++) {
   </tr>
   <?}?>
   </table>
+
+  </br>
+
+  <?php
+$str="   TEST   ";
+echo trim ($str);
+echo "</br>";
+echo ltrim ($str);
+echo "</br>";
+echo chop ($str);
+?>
